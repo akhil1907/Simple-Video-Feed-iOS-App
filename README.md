@@ -9,14 +9,21 @@ Each cell in the collection view displays a thumbnail image, username, and like 
 Videos play automatically when the player is ready.
 Tapping on a cell opens a detailed view controller with the video and user information.
 Navigate to the user profile view controller to view the user's profile image, name, and list of posts.
+
+
 Architecture
 The app is built using the VIPER architecture pattern, which stands for:
 
 View: User interface components
+
 Interactor: Business logic and data management
+
 Presenter: Mediator between view and interactor, responsible for presentation logic
+
 Entity: Data models
-Router: Navigation logic
+
+Router: Navigation logic (Please note that for now i have not created a Router for simplicity)
+
 The VIPER architecture ensures separation of concerns and makes the app modular and scalable.
 
 Mock Data
@@ -30,7 +37,7 @@ Common: Shared components and utilities used across modules.
 Networking: Network layer implementation for API communication.
 Resources: Assets, localization files, and other resources.
 Installation
-Clone the repository from [GitHub Repo URL].
+Clone the repository from [[GitHub Repo URL]](https://github.com/akhil1907/Simple-Video-Feed-iOS-App).
 Open the project in Xcode.
 Build and run the app on a simulator or device.
 
