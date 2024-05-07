@@ -43,5 +43,4 @@ Build and run the app on a simulator or device.
 
 Dependencies
 The app uses the following dependencies:
-
 [Dependency 1]: SDWebImage 
