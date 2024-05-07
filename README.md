@@ -7,6 +7,7 @@ Features
 Display a list of videos in a collection view.
 Each cell in the collection view displays a thumbnail image, username, and like count.
 Videos play automatically when the player is ready.
+Pull to refresh list of posts. 
 Tapping on a cell opens a detailed view controller with the video and user information.
 Navigate to the user profile view controller to view the user's profile image, name, and list of posts.
 
