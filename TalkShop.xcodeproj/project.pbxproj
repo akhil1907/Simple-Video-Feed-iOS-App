@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21273FF7E180535E8C07F767 /* Pods_TalkShop_TalkShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0515221787A259D169C0EE4 /* Pods_TalkShop_TalkShopUITests.framework */; };
+		286F8AEDB305ED136990BFE9 /* Pods_TalkShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3AAF9E8AAE43824CD14D46A /* Pods_TalkShop.framework */; };
+		B6A54A762BE6A55C0099D17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54A752BE6A55C0099D17D /* AppDelegate.swift */; };
+		B6A54A782BE6A55C0099D17D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54A772BE6A55C0099D17D /* SceneDelegate.swift */; };
+		B6A54A7A2BE6A55C0099D17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54A792BE6A55C0099D17D /* ViewController.swift */; };
+		B6A54A7D2BE6A55C0099D17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A54A7B2BE6A55C0099D17D /* Main.storyboard */; };
+		B6A54A7F2BE6A55E0099D17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A54A7E2BE6A55E0099D17D /* Assets.xcassets */; };
+		B6A54A822BE6A55E0099D17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A54A802BE6A55E0099D17D /* LaunchScreen.storyboard */; };
+		B6A54A8D2BE6A55E0099D17D /* TalkShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54A8C2BE6A55E0099D17D /* TalkShopTests.swift */; };
+		B6A54A972BE6A55E0099D17D /* TalkShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54A962BE6A55E0099D17D /* TalkShopUITests.swift */; };
+		B6A54A992BE6A55E0099D17D /* TalkShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54A982BE6A55E0099D17D /* TalkShopUITestsLaunchTests.swift */; };
+		B6A54AA62BE6A5B80099D17D /* TalkShopApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54AA52BE6A5B80099D17D /* TalkShopApiService.swift */; };
+		B6A54AA82BE6A5F60099D17D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54AA72BE6A5F60099D17D /* Post.swift */; };
+		B6A54AAB2BE6A8880099D17D /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54AA92BE6A8880099D17D /* PostCollectionViewCell.swift */; };
+		B6A54AAC2BE6A8880099D17D /* PostCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A54AAA2BE6A8880099D17D /* PostCollectionViewCell.xib */; };
+		B6A54AB22BE7E3D20099D17D /* PostDetailVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54AB12BE7E3D20099D17D /* PostDetailVideoViewController.swift */; };
+		B6A54AB42BE926520099D17D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54AB32BE926520099D17D /* User.swift */; };
+		B6A54AB62BE92A930099D17D /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54AB52BE92A930099D17D /* UserProfileViewController.swift */; };
+		B6A54AB82BE93C250099D17D /* TechiePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54AB72BE93C250099D17D /* TechiePresenter.swift */; };
+		B6A54ABA2BE93CFE0099D17D /* TechieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54AB92BE93CFE0099D17D /* TechieInteractor.swift */; };
+		B6A54AC52BEA4A8D0099D17D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A54AC42BEA4A8D0099D17D /* Extensions.swift */; };
+		C83005B6E15C81258171C63B /* Pods_TalkShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1390C524245098D2292EE18 /* Pods_TalkShopTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6A54A892BE6A55E0099D17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A54A6A2BE6A55C0099D17D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6A54A712BE6A55C0099D17D;
+			remoteInfo = TalkShop;
+		};
+		B6A54A932BE6A55E0099D17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A54A6A2BE6A55C0099D17D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6A54A712BE6A55C0099D17D;
+			remoteInfo = TalkShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BA78911A4D2005E0396348F /* Pods-TalkShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkShop.release.xcconfig"; path = "Target Support Files/Pods-TalkShop/Pods-TalkShop.release.xcconfig"; sourceTree = "<group>"; };
+		33F3D9EBF6DAF2276E7228C8 /* Pods-TalkShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkShop.debug.xcconfig"; path = "Target Support Files/Pods-TalkShop/Pods-TalkShop.debug.xcconfig"; sourceTree = "<group>"; };
+		483B1DCDE94045A9C49F4770 /* Pods-TalkShop-TalkShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkShop-TalkShopUITests.debug.xcconfig"; path = "Target Support Files/Pods-TalkShop-TalkShopUITests/Pods-TalkShop-TalkShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0515221787A259D169C0EE4 /* Pods_TalkShop_TalkShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkShop_TalkShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A217C4F350445970FA90B145 /* Pods-TalkShop-TalkShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkShop-TalkShopUITests.release.xcconfig"; path = "Target Support Files/Pods-TalkShop-TalkShopUITests/Pods-TalkShop-TalkShopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD0217D1039C18D5B49442B8 /* Pods-TalkShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkShopTests.debug.xcconfig"; path = "Target Support Files/Pods-TalkShopTests/Pods-TalkShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0D79DAE0F4EEA480CD38E9E /* Pods-TalkShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkShopTests.release.xcconfig"; path = "Target Support Files/Pods-TalkShopTests/Pods-TalkShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6A54A722BE6A55C0099D17D /* TalkShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A54A752BE6A55C0099D17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6A54A772BE6A55C0099D17D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6A54A792BE6A55C0099D17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6A54A7C2BE6A55C0099D17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6A54A7E2BE6A55E0099D17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6A54A812BE6A55E0099D17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6A54A832BE6A55E0099D17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A54A882BE6A55E0099D17D /* TalkShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A54A8C2BE6A55E0099D17D /* TalkShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopTests.swift; sourceTree = "<group>"; };
+		B6A54A922BE6A55E0099D17D /* TalkShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A54A962BE6A55E0099D17D /* TalkShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopUITests.swift; sourceTree = "<group>"; };
+		B6A54A982BE6A55E0099D17D /* TalkShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6A54AA52BE6A5B80099D17D /* TalkShopApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopApiService.swift; sourceTree = "<group>"; };
+		B6A54AA72BE6A5F60099D17D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B6A54AA92BE6A8880099D17D /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6A54AAA2BE6A8880099D17D /* PostCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCollectionViewCell.xib; sourceTree = "<group>"; };
+		B6A54AB12BE7E3D20099D17D /* PostDetailVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailVideoViewController.swift; sourceTree = "<group>"; };
+		B6A54AB32BE926520099D17D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B6A54AB52BE92A930099D17D /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		B6A54AB72BE93C250099D17D /* TechiePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechiePresenter.swift; sourceTree = "<group>"; };
+		B6A54AB92BE93CFE0099D17D /* TechieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechieInteractor.swift; sourceTree = "<group>"; };
+		B6A54AC42BEA4A8D0099D17D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F1390C524245098D2292EE18 /* Pods_TalkShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AAF9E8AAE43824CD14D46A /* Pods_TalkShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6A54A6F2BE6A55C0099D17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286F8AEDB305ED136990BFE9 /* Pods_TalkShop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A54A852BE6A55E0099D17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83005B6E15C81258171C63B /* Pods_TalkShopTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A54A8F2BE6A55E0099D17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21273FF7E180535E8C07F767 /* Pods_TalkShop_TalkShopUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E437B25EA59F7CD984C3DF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33F3D9EBF6DAF2276E7228C8 /* Pods-TalkShop.debug.xcconfig */,
+				2BA78911A4D2005E0396348F /* Pods-TalkShop.release.xcconfig */,
+				483B1DCDE94045A9C49F4770 /* Pods-TalkShop-TalkShopUITests.debug.xcconfig */,
+				A217C4F350445970FA90B145 /* Pods-TalkShop-TalkShopUITests.release.xcconfig */,
+				AD0217D1039C18D5B49442B8 /* Pods-TalkShopTests.debug.xcconfig */,
+				B0D79DAE0F4EEA480CD38E9E /* Pods-TalkShopTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6A54A692BE6A55C0099D17D = {
+			isa = PBXGroup;
+			children = (
+				B6A54A742BE6A55C0099D17D /* TalkShop */,
+				B6A54A8B2BE6A55E0099D17D /* TalkShopTests */,
+				B6A54A952BE6A55E0099D17D /* TalkShopUITests */,
+				B6A54A732BE6A55C0099D17D /* Products */,
+				5E437B25EA59F7CD984C3DF7 /* Pods */,
+				E82667DB913C772BB8CFF70D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6A54A732BE6A55C0099D17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54A722BE6A55C0099D17D /* TalkShop.app */,
+				B6A54A882BE6A55E0099D17D /* TalkShopTests.xctest */,
+				B6A54A922BE6A55E0099D17D /* TalkShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6A54A742BE6A55C0099D17D /* TalkShop */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54A752BE6A55C0099D17D /* AppDelegate.swift */,
+				B6A54A772BE6A55C0099D17D /* SceneDelegate.swift */,
+				B6A54ABE2BE9FF3D0099D17D /* View */,
+				B6A54ABC2BE9FEE30099D17D /* Interactor */,
+				B6A54ABB2BE9FED90099D17D /* Presenter */,
+				B6A54ABD2BE9FEF10099D17D /* ApiService */,
+				B6A54ABF2BE9FF5A0099D17D /* Entities */,
+				B6A54AC62BEA4A930099D17D /* Utils */,
+				B6A54A7B2BE6A55C0099D17D /* Main.storyboard */,
+				B6A54A7E2BE6A55E0099D17D /* Assets.xcassets */,
+				B6A54A802BE6A55E0099D17D /* LaunchScreen.storyboard */,
+				B6A54A832BE6A55E0099D17D /* Info.plist */,
+			);
+			path = TalkShop;
+			sourceTree = "<group>";
+		};
+		B6A54A8B2BE6A55E0099D17D /* TalkShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54A8C2BE6A55E0099D17D /* TalkShopTests.swift */,
+			);
+			path = TalkShopTests;
+			sourceTree = "<group>";
+		};
+		B6A54A952BE6A55E0099D17D /* TalkShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54A962BE6A55E0099D17D /* TalkShopUITests.swift */,
+				B6A54A982BE6A55E0099D17D /* TalkShopUITestsLaunchTests.swift */,
+			);
+			path = TalkShopUITests;
+			sourceTree = "<group>";
+		};
+		B6A54ABB2BE9FED90099D17D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54AB72BE93C250099D17D /* TechiePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B6A54ABC2BE9FEE30099D17D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54AB92BE93CFE0099D17D /* TechieInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B6A54ABD2BE9FEF10099D17D /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54AA52BE6A5B80099D17D /* TalkShopApiService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		B6A54ABE2BE9FF3D0099D17D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54A792BE6A55C0099D17D /* ViewController.swift */,
+				B6A54AB52BE92A930099D17D /* UserProfileViewController.swift */,
+				B6A54AA92BE6A8880099D17D /* PostCollectionViewCell.swift */,
+				B6A54AAA2BE6A8880099D17D /* PostCollectionViewCell.xib */,
+				B6A54AB12BE7E3D20099D17D /* PostDetailVideoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6A54ABF2BE9FF5A0099D17D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54AA72BE6A5F60099D17D /* Post.swift */,
+				B6A54AB32BE926520099D17D /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B6A54AC62BEA4A930099D17D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54AC42BEA4A8D0099D17D /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E82667DB913C772BB8CFF70D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3AAF9E8AAE43824CD14D46A /* Pods_TalkShop.framework */,
+				A0515221787A259D169C0EE4 /* Pods_TalkShop_TalkShopUITests.framework */,
+				F1390C524245098D2292EE18 /* Pods_TalkShopTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6A54A712BE6A55C0099D17D /* TalkShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A54A9C2BE6A55E0099D17D /* Build configuration list for PBXNativeTarget "TalkShop" */;
+			buildPhases = (
+				FB361B559392276A135AD299 /* [CP] Check Pods Manifest.lock */,
+				B6A54A6E2BE6A55C0099D17D /* Sources */,
+				B6A54A6F2BE6A55C0099D17D /* Frameworks */,
+				B6A54A702BE6A55C0099D17D /* Resources */,
+				9ACCB5FD3F0D999A5D4AD192 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkShop;
+			productName = TalkShop;
+			productReference = B6A54A722BE6A55C0099D17D /* TalkShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6A54A872BE6A55E0099D17D /* TalkShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A54A9F2BE6A55E0099D17D /* Build configuration list for PBXNativeTarget "TalkShopTests" */;
+			buildPhases = (
+				A1CCA70B47BC677B7562E41E /* [CP] Check Pods Manifest.lock */,
+				B6A54A842BE6A55E0099D17D /* Sources */,
+				B6A54A852BE6A55E0099D17D /* Frameworks */,
+				B6A54A862BE6A55E0099D17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A54A8A2BE6A55E0099D17D /* PBXTargetDependency */,
+			);
+			name = TalkShopTests;
+			productName = TalkShopTests;
+			productReference = B6A54A882BE6A55E0099D17D /* TalkShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6A54A912BE6A55E0099D17D /* TalkShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A54AA22BE6A55E0099D17D /* Build configuration list for PBXNativeTarget "TalkShopUITests" */;
+			buildPhases = (
+				6B73334765371EF589178A11 /* [CP] Check Pods Manifest.lock */,
+				B6A54A8E2BE6A55E0099D17D /* Sources */,
+				B6A54A8F2BE6A55E0099D17D /* Frameworks */,
+				B6A54A902BE6A55E0099D17D /* Resources */,
+				D2C2780BDF7B472289DDB14A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A54A942BE6A55E0099D17D /* PBXTargetDependency */,
+			);
+			name = TalkShopUITests;
+			productName = TalkShopUITests;
+			productReference = B6A54A922BE6A55E0099D17D /* TalkShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6A54A6A2BE6A55C0099D17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B6A54A712BE6A55C0099D17D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B6A54A872BE6A55E0099D17D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B6A54A712BE6A55C0099D17D;
+					};
+					B6A54A912BE6A55E0099D17D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B6A54A712BE6A55C0099D17D;
+					};
+				};
+			};
+			buildConfigurationList = B6A54A6D2BE6A55C0099D17D /* Build configuration list for PBXProject "TalkShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6A54A692BE6A55C0099D17D;
+			productRefGroup = B6A54A732BE6A55C0099D17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6A54A712BE6A55C0099D17D /* TalkShop */,
+				B6A54A872BE6A55E0099D17D /* TalkShopTests */,
+				B6A54A912BE6A55E0099D17D /* TalkShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6A54A702BE6A55C0099D17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A54AAC2BE6A8880099D17D /* PostCollectionViewCell.xib in Resources */,
+				B6A54A822BE6A55E0099D17D /* LaunchScreen.storyboard in Resources */,
+				B6A54A7F2BE6A55E0099D17D /* Assets.xcassets in Resources */,
+				B6A54A7D2BE6A55C0099D17D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A54A862BE6A55E0099D17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A54A902BE6A55E0099D17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B73334765371EF589178A11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkShop-TalkShopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACCB5FD3F0D999A5D4AD192 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkShop/Pods-TalkShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkShop/Pods-TalkShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalkShop/Pods-TalkShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1CCA70B47BC677B7562E41E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C2780BDF7B472289DDB14A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkShop-TalkShopUITests/Pods-TalkShop-TalkShopUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkShop-TalkShopUITests/Pods-TalkShop-TalkShopUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalkShop-TalkShopUITests/Pods-TalkShop-TalkShopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB361B559392276A135AD299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6A54A6E2BE6A55C0099D17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A54AB82BE93C250099D17D /* TechiePresenter.swift in Sources */,
+				B6A54ABA2BE93CFE0099D17D /* TechieInteractor.swift in Sources */,
+				B6A54AA62BE6A5B80099D17D /* TalkShopApiService.swift in Sources */,
+				B6A54AB22BE7E3D20099D17D /* PostDetailVideoViewController.swift in Sources */,
+				B6A54A7A2BE6A55C0099D17D /* ViewController.swift in Sources */,
+				B6A54AAB2BE6A8880099D17D /* PostCollectionViewCell.swift in Sources */,
+				B6A54AB42BE926520099D17D /* User.swift in Sources */,
+				B6A54AC52BEA4A8D0099D17D /* Extensions.swift in Sources */,
+				B6A54A762BE6A55C0099D17D /* AppDelegate.swift in Sources */,
+				B6A54A782BE6A55C0099D17D /* SceneDelegate.swift in Sources */,
+				B6A54AB62BE92A930099D17D /* UserProfileViewController.swift in Sources */,
+				B6A54AA82BE6A5F60099D17D /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A54A842BE6A55E0099D17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A54A8D2BE6A55E0099D17D /* TalkShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A54A8E2BE6A55E0099D17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A54A992BE6A55E0099D17D /* TalkShopUITestsLaunchTests.swift in Sources */,
+				B6A54A972BE6A55E0099D17D /* TalkShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6A54A8A2BE6A55E0099D17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6A54A712BE6A55C0099D17D /* TalkShop */;
+			targetProxy = B6A54A892BE6A55E0099D17D /* PBXContainerItemProxy */;
+		};
+		B6A54A942BE6A55E0099D17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6A54A712BE6A55C0099D17D /* TalkShop */;
+			targetProxy = B6A54A932BE6A55E0099D17D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6A54A7B2BE6A55C0099D17D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A54A7C2BE6A55C0099D17D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6A54A802BE6A55E0099D17D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A54A812BE6A55E0099D17D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6A54A9A2BE6A55E0099D17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6A54A9B2BE6A55E0099D17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6A54A9D2BE6A55E0099D17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F3D9EBF6DAF2276E7228C8 /* Pods-TalkShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C926935D59;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalkShop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nil.TalkShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6A54A9E2BE6A55E0099D17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA78911A4D2005E0396348F /* Pods-TalkShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C926935D59;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalkShop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nil.TalkShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6A54AA02BE6A55E0099D17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0217D1039C18D5B49442B8 /* Pods-TalkShopTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C926935D59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nil.TalkShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkShop";
+			};
+			name = Debug;
+		};
+		B6A54AA12BE6A55E0099D17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D79DAE0F4EEA480CD38E9E /* Pods-TalkShopTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C926935D59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nil.TalkShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkShop";
+			};
+			name = Release;
+		};
+		B6A54AA32BE6A55E0099D17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483B1DCDE94045A9C49F4770 /* Pods-TalkShop-TalkShopUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C926935D59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nil.TalkShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkShop;
+			};
+			name = Debug;
+		};
+		B6A54AA42BE6A55E0099D17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A217C4F350445970FA90B145 /* Pods-TalkShop-TalkShopUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C926935D59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nil.TalkShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6A54A6D2BE6A55C0099D17D /* Build configuration list for PBXProject "TalkShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A54A9A2BE6A55E0099D17D /* Debug */,
+				B6A54A9B2BE6A55E0099D17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A54A9C2BE6A55E0099D17D /* Build configuration list for PBXNativeTarget "TalkShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A54A9D2BE6A55E0099D17D /* Debug */,
+				B6A54A9E2BE6A55E0099D17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A54A9F2BE6A55E0099D17D /* Build configuration list for PBXNativeTarget "TalkShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A54AA02BE6A55E0099D17D /* Debug */,
+				B6A54AA12BE6A55E0099D17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A54AA22BE6A55E0099D17D /* Build configuration list for PBXNativeTarget "TalkShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A54AA32BE6A55E0099D17D /* Debug */,
+				B6A54AA42BE6A55E0099D17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6A54A6A2BE6A55C0099D17D /* Project object */;
+}
